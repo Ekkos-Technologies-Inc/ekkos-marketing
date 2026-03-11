@@ -1,0 +1,3187 @@
+{
+  "generatedAt": "2026-03-11T02:27:20.791Z",
+  "baseUrl": "http://localhost:3100",
+  "routes": [
+    "/",
+    "/about",
+    "/brand",
+    "/docs",
+    "/docs/compliance/SOC2_CONTROLS",
+    "/docs/memory/privacy",
+    "/docs/memory/retention",
+    "/features",
+    "/features/forever-memory",
+    "/memory-privacy",
+    "/nvidia",
+    "/press",
+    "/pricing",
+    "/privacy",
+    "/pulse",
+    "/security",
+    "/status",
+    "/success",
+    "/support",
+    "/terms"
+  ],
+  "profiles": [
+    "desktop",
+    "mobile"
+  ],
+  "results": [
+    {
+      "route": "/",
+      "profile": "desktop",
+      "url": "http://localhost:3100/",
+      "startedAt": "2026-03-11T02:27:23.580Z",
+      "durationMs": 4397,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/nvidia",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x124001ad400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x124001ad400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x124001ad400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x124001ad400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/",
+      "profile": "mobile",
+      "url": "http://localhost:3100/",
+      "startedAt": "2026-03-11T02:27:28.823Z",
+      "durationMs": 2888,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/nvidia",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/about",
+      "profile": "desktop",
+      "url": "http://localhost:3100/about",
+      "startedAt": "2026-03-11T02:27:31.860Z",
+      "durationMs": 2547,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "About - EKKOS",
+        "description": "The story behind EKKOS. Memory that echoes back.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Why EKKOS?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 3
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/about",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/about",
+      "profile": "mobile",
+      "url": "http://localhost:3100/about",
+      "startedAt": "2026-03-11T02:27:34.615Z",
+      "durationMs": 2074,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "About - EKKOS",
+        "description": "The story behind EKKOS. Memory that echoes back.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Why EKKOS?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 3
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/about",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/brand",
+      "profile": "desktop",
+      "url": "http://localhost:3100/brand",
+      "startedAt": "2026-03-11T02:27:36.820Z",
+      "durationMs": 3840,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Brand Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/images/wallpapers/circuit-landscape-desktop.png",
+          "/images/wallpapers/circuit-landscape-mobile.png",
+          "/images/wallpapers/neon-cityscape-desktop.png",
+          "/images/wallpapers/neon-cityscape-mobile.png",
+          "/images/wallpapers/data-streams-desktop.png",
+          "/images/wallpapers/data-streams-mobile.png",
+          "/images/wallpapers/neural-network-desktop.png",
+          "/images/wallpapers/neural-network-mobile.png",
+          "/images/wallpapers/memory-cathedral-desktop.png",
+          "/images/wallpapers/memory-cathedral-mobile.png",
+          "/images/wallpapers/quantum-grid-desktop.png",
+          "/images/wallpapers/quantum-grid-mobile.png",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/brand",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/brand",
+      "profile": "mobile",
+      "url": "http://localhost:3100/brand",
+      "startedAt": "2026-03-11T02:27:40.936Z",
+      "durationMs": 2456,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Brand Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/images/wallpapers/circuit-landscape-desktop.png",
+          "/images/wallpapers/circuit-landscape-mobile.png",
+          "/images/wallpapers/neon-cityscape-desktop.png",
+          "/images/wallpapers/neon-cityscape-mobile.png",
+          "/images/wallpapers/data-streams-desktop.png",
+          "/images/wallpapers/data-streams-mobile.png",
+          "/images/wallpapers/neural-network-desktop.png",
+          "/images/wallpapers/neural-network-mobile.png",
+          "/images/wallpapers/memory-cathedral-desktop.png",
+          "/images/wallpapers/memory-cathedral-mobile.png",
+          "/images/wallpapers/quantum-grid-desktop.png",
+          "/images/wallpapers/quantum-grid-mobile.png",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/brand",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs",
+      "startedAt": "2026-03-11T02:27:43.521Z",
+      "durationMs": 2852,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS™ Documentation"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs",
+      "startedAt": "2026-03-11T02:27:46.678Z",
+      "durationMs": 2268,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS™ Documentation"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/compliance/SOC2_CONTROLS",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+      "startedAt": "2026-03-11T02:27:49.100Z",
+      "durationMs": 5088,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "SOC 2 Controls | ekkOS",
+        "description": "SOC 2 Type II security controls implemented by ekkOS for enterprise-grade security and compliance.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "SOC 2 Type II Controls"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/security",
+          "/security",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/compliance/SOC2_CONTROLS",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+      "startedAt": "2026-03-11T02:27:54.561Z",
+      "durationMs": 2679,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "SOC 2 Controls | ekkOS",
+        "description": "SOC 2 Type II security controls implemented by ekkOS for enterprise-grade security and compliance.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "SOC 2 Type II Controls"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/security",
+          "/security",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080510014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/memory/privacy",
+      "startedAt": "2026-03-11T02:27:57.409Z",
+      "durationMs": 3414,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory & Privacy Model"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/memory-privacy",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/memory/privacy",
+      "startedAt": "2026-03-11T02:28:01.110Z",
+      "durationMs": 2342,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory & Privacy Model"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/memory-privacy",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/retention",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/memory/retention",
+      "startedAt": "2026-03-11T02:28:03.666Z",
+      "durationMs": 3813,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory Retention Policies"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/retention",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/retention",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/memory/retention",
+      "startedAt": "2026-03-11T02:28:07.803Z",
+      "durationMs": 2165,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory Retention Policies"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/retention",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features",
+      "profile": "desktop",
+      "url": "http://localhost:3100/features",
+      "startedAt": "2026-03-11T02:28:10.127Z",
+      "durationMs": 4078,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Capabilities"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/security",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features",
+      "profile": "mobile",
+      "url": "http://localhost:3100/features",
+      "startedAt": "2026-03-11T02:28:14.480Z",
+      "durationMs": 2392,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Capabilities"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/security",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features/forever-memory",
+      "profile": "desktop",
+      "url": "http://localhost:3100/features/forever-memory",
+      "startedAt": "2026-03-11T02:28:17.019Z",
+      "durationMs": 4143,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Forever Memory™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/retention",
+          "/features",
+          "/docs",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features/forever-memory",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features/forever-memory",
+      "profile": "mobile",
+      "url": "http://localhost:3100/features/forever-memory",
+      "startedAt": "2026-03-11T02:28:21.473Z",
+      "durationMs": 2078,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Forever Memory™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/retention",
+          "/features",
+          "/docs",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features/forever-memory",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/memory-privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/memory-privacy",
+      "startedAt": "2026-03-11T02:28:23.748Z",
+      "durationMs": 3533,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How ekkOS Memory Privacy Works"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/privacy",
+          "/privacy",
+          "/terms",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/memory-privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/memory-privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/memory-privacy",
+      "startedAt": "2026-03-11T02:28:27.577Z",
+      "durationMs": 2359,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How ekkOS Memory Privacy Works"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/privacy",
+          "/privacy",
+          "/terms",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/memory-privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/nvidia",
+      "profile": "desktop",
+      "url": "http://localhost:3100/nvidia",
+      "startedAt": "2026-03-11T02:28:30.073Z",
+      "durationMs": 5428,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "NVIDIA Inception Program | ekkOS",
+        "description": "ekkOS Technologies is a proud member of the NVIDIA Inception program, accelerating AI memory infrastructure development.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_×NVIDIA Inception"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/nvidia",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/nvidia",
+      "profile": "mobile",
+      "url": "http://localhost:3100/nvidia",
+      "startedAt": "2026-03-11T02:28:35.804Z",
+      "durationMs": 2212,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "NVIDIA Inception Program | ekkOS",
+        "description": "ekkOS Technologies is a proud member of the NVIDIA Inception program, accelerating AI memory infrastructure development.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_×NVIDIA Inception"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/nvidia",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/press",
+      "profile": "desktop",
+      "url": "http://localhost:3100/press",
+      "startedAt": "2026-03-11T02:28:38.160Z",
+      "durationMs": 3696,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Press Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/brand",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/press",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/press",
+      "profile": "mobile",
+      "url": "http://localhost:3100/press",
+      "startedAt": "2026-03-11T02:28:42.090Z",
+      "durationMs": 3238,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Press Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/brand",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/press",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pricing",
+      "profile": "desktop",
+      "url": "http://localhost:3100/pricing",
+      "startedAt": "2026-03-11T02:28:45.496Z",
+      "durationMs": 3890,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Access Tiers"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pricing",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pricing",
+      "profile": "mobile",
+      "url": "http://localhost:3100/pricing",
+      "startedAt": "2026-03-11T02:28:49.792Z",
+      "durationMs": 2329,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Access Tiers"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pricing",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/privacy",
+      "startedAt": "2026-03-11T02:28:52.278Z",
+      "durationMs": 3464,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Privacy Policy"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/terms",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/privacy",
+      "startedAt": "2026-03-11T02:28:56.018Z",
+      "durationMs": 2104,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Privacy Policy"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/terms",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pulse",
+      "profile": "desktop",
+      "url": "http://localhost:3100/pulse",
+      "startedAt": "2026-03-11T02:28:58.285Z",
+      "durationMs": 3782,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_Pulse™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/pricing",
+          "/features",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pulse",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pulse",
+      "profile": "mobile",
+      "url": "http://localhost:3100/pulse",
+      "startedAt": "2026-03-11T02:29:02.327Z",
+      "durationMs": 2923,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_Pulse™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/pricing",
+          "/features",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pulse",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/security",
+      "profile": "desktop",
+      "url": "http://localhost:3100/security",
+      "startedAt": "2026-03-11T02:29:05.397Z",
+      "durationMs": 3534,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "Security | ekkOS",
+        "description": "Enterprise-grade security for AI memory. SOC 2 Type II in progress, end-to-end encryption, and built for teams that need peace of mind.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Enterprise-Grade Security"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/security",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/security",
+      "profile": "mobile",
+      "url": "http://localhost:3100/security",
+      "startedAt": "2026-03-11T02:29:09.202Z",
+      "durationMs": 2027,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "Security | ekkOS",
+        "description": "Enterprise-grade security for AI memory. SOC 2 Type II in progress, end-to-end encryption, and built for teams that need peace of mind.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Enterprise-Grade Security"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/security",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/status",
+      "profile": "desktop",
+      "url": "http://localhost:3100/status",
+      "startedAt": "2026-03-11T02:29:11.364Z",
+      "durationMs": 3190,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Status"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/status",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/status",
+      "profile": "mobile",
+      "url": "http://localhost:3100/status",
+      "startedAt": "2026-03-11T02:29:14.867Z",
+      "durationMs": 2489,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Status"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/status",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/success",
+      "profile": "desktop",
+      "url": "http://localhost:3100/success",
+      "startedAt": "2026-03-11T02:29:17.506Z",
+      "durationMs": 3676,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Welcome to ekkOS Pro!"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/success",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/success",
+      "profile": "mobile",
+      "url": "http://localhost:3100/success",
+      "startedAt": "2026-03-11T02:29:21.529Z",
+      "durationMs": 2120,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Welcome to ekkOS Pro!"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/success",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/support",
+      "profile": "desktop",
+      "url": "http://localhost:3100/support",
+      "startedAt": "2026-03-11T02:29:23.803Z",
+      "durationMs": 3627,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How can we help?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/status",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/support",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/support",
+      "profile": "mobile",
+      "url": "http://localhost:3100/support",
+      "startedAt": "2026-03-11T02:29:27.889Z",
+      "durationMs": 2248,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How can we help?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/status",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/support",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/terms",
+      "profile": "desktop",
+      "url": "http://localhost:3100/terms",
+      "startedAt": "2026-03-11T02:29:30.276Z",
+      "durationMs": 3294,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Terms of Service"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/privacy",
+          "/privacy",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0520014010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/terms",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/terms",
+      "profile": "mobile",
+      "url": "http://localhost:3100/terms",
+      "startedAt": "2026-03-11T02:29:33.830Z",
+      "durationMs": 7,
+      "mainStatus": null,
+      "navError": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3100/terms\nCall log:\n\u001b[2m  - navigating to \"http://localhost:3100/terms\", waiting until \"networkidle\"\u001b[22m\n",
+      "dom": null,
+      "axe": {
+        "violationCount": 0,
+        "summary": [],
+        "criticalCount": 0,
+        "seriousCount": 0,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [],
+      "requestFailures": [
+        {
+          "url": "http://localhost:3100/terms",
+          "method": "GET",
+          "resourceType": "document",
+          "failureText": "net::ERR_CONNECTION_REFUSED"
+        }
+      ],
+      "responseErrors": []
+    }
+  ],
+  "findings": [
+    {
+      "severity": "critical",
+      "page": "/terms (mobile)",
+      "issue": "Navigation failed: Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3100/terms Call log: \u001b[2m - navigating to \"http://localhost:3100/terms\", waiting until \"networkidle\"\u001b[22m"
+    },
+    {
+      "severity": "high",
+      "page": "/about (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/about (mobile)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/memory-privacy (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/memory-privacy (mobile)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/status (mobile)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    }
+  ],
+  "summary": {
+    "critical": 1,
+    "high": 5,
+    "medium": 0,
+    "low": 0,
+    "passes": 0
+  }
+}

@@ -1,0 +1,286 @@
+/* Import fonts — Share Tech Mono (display), JetBrains Mono (technical), Space Grotesk (body) */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary accent */
+    --cyan: #00f0ff;
+    --cyan-dim: rgba(0, 240, 255, 0.2);
+    --cyan-glow: rgba(0, 240, 255, 0.4);
+
+    /* Secondary signals */
+    --amber: #ffb800;
+    --amber-dim: rgba(255, 184, 0, 0.2);
+    --green: #00ff88;
+    --red: #ff3366;
+
+    /* Backgrounds — layered depth */
+    --bg-deep: #0a0a0f;
+    --bg-panel: #0d0d14;
+    --bg-card: #111118;
+    --bg-elevated: #16161f;
+
+    /* Borders */
+    --border: #1a1a2e;
+    --border-bright: #2a2a3e;
+
+    /* Text */
+    --text-primary: #e8e8f0;
+    --text-secondary: #7a7a8e;
+    --text-dim: #4a4a5e;
+  }
+
+  html {
+    @apply h-full;
+  }
+
+  body {
+    @apply h-full antialiased;
+    background-color: var(--bg-deep);
+    color: var(--text-primary);
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  /* Viewport edge lines + scanline overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9998;
+    box-shadow:
+      inset 0 1px 0 rgba(0, 240, 255, 0.28),
+      inset 0 -1px 0 rgba(0, 240, 255, 0.28),
+      inset 1px 0 0 rgba(0, 240, 255, 0.18),
+      inset -1px 0 0 rgba(0, 240, 255, 0.18);
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent 0px,
+      transparent 2px,
+      rgba(0, 240, 255, 0.03) 2px,
+      rgba(0, 240, 255, 0.03) 4px
+    );
+    mix-blend-mode: screen;
+    pointer-events: none;
+    z-index: 9999;
+  }
+}
+
+@layer components {
+  /* Clip-path angular corners — the core visual signature */
+  .clip-sm {
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+  }
+
+  .clip-md {
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  }
+
+  .clip-lg {
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  }
+
+  /* Section labels — // PREFIX STYLE */
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--cyan);
+  }
+
+  .section-label::before {
+    content: '// ';
+    color: var(--text-dim);
+  }
+
+  /* Primary button — cyan, angular, uppercase */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.5rem;
+    background-color: var(--cyan);
+    color: var(--bg-deep);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    transition: all 0.2s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #33f3ff;
+    transform: translateY(-1px);
+  }
+
+  /* Secondary button — transparent, bordered, angular */
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid var(--border-bright);
+    color: var(--text-primary);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    transition: all 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--cyan);
+    color: var(--cyan);
+  }
+
+  /* Card — angular panel */
+  .card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+    transition: all 0.2s ease;
+  }
+
+  .card:hover {
+    background-color: var(--bg-elevated);
+    border-color: var(--border-bright);
+  }
+
+  /* Terminal block */
+  .terminal {
+    background-color: var(--bg-panel);
+    border: 1px solid var(--border);
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+    position: relative;
+  }
+
+  .terminal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent);
+  }
+
+  /* Tag / Badge — small angular */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--cyan-dim);
+    color: var(--cyan);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+  }
+
+}
+
+@layer utilities {
+  /* Cursor blink — amber */
+  .cursor-blink {
+    animation: cursorBlink 1s step-end infinite;
+    display: inline-block;
+    color: var(--amber);
+    font-weight: bold;
+    margin: 0 2px;
+  }
+
+  @keyframes cursorBlink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+  }
+
+  /* Gradient text — cyan */
+  .gradient-text {
+    background: linear-gradient(135deg, var(--cyan), rgba(0, 240, 255, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Top-line glow for cards on hover */
+  .top-glow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .top-glow:hover::before {
+    opacity: 1;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Custom scrollbar */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: var(--bg-panel);
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: var(--border);
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: var(--border-bright);
+  }
+}
+
+/* Focus visible styles */
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--cyan-dim);
+}
+
+/* ============================================================
+   Glitch Text Reveal — GlitchText.tsx
+   JS-driven scramble: React state cycles through random chars
+   ============================================================ */
+
+/* Each character is an inline-block span — JS updates text content directly */
+.glitch-char {
+  display: inline-block;
+  /* Prevent the default baseline gap that inline-block creates below text */
+  vertical-align: middle;
+}

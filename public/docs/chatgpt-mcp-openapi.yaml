@@ -1,0 +1,216 @@
+openapi: 3.1.0
+info:
+  title: ekkOS Memory API
+  description: |
+    Give your AI persistent memory. Store patterns, search insights, and build a knowledge base that grows smarter over time.
+
+    ## Quick Start
+    1. Sign up at https://ekkos.dev
+    2. Get your API key from Dashboard → Settings → API Keys
+    3. Use these endpoints to store and retrieve memories
+  version: 1.0.0
+  contact:
+    name: ekkOS Support
+    url: https://ekkos.dev/docs
+servers:
+  - url: https://api.ekkos.dev/api/v1/mcp
+    description: Production MCP API
+
+paths:
+  /call:
+    post:
+      operationId: callTool
+      summary: Call an ekkOS memory tool
+      description: Execute any ekkOS memory tool (search, forge, track, etc.)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - tool
+              properties:
+                tool:
+                  type: string
+                  enum:
+                    - search_memory
+                    - get_context
+                    - capture_event
+                    - forge_pattern
+                    - track_application
+                    - record_outcome
+                    - get_memory_stats
+                  description: The tool to execute
+                arguments:
+                  type: object
+                  description: Tool-specific arguments
+            examples:
+              search:
+                summary: Search memory
+                value:
+                  tool: search_memory
+                  arguments:
+                    query: "authentication patterns"
+                    limit: 5
+              forge:
+                summary: Create a pattern
+                value:
+                  tool: forge_pattern
+                  arguments:
+                    title: "API Rate Limiting Pattern"
+                    problem: "APIs getting overwhelmed by too many requests"
+                    solution: "Implement token bucket algorithm with Redis"
+                    tags: ["api", "performance", "redis"]
+              stats:
+                summary: Get memory statistics
+                value:
+                  tool: get_memory_stats
+                  arguments: {}
+      responses:
+        '200':
+          description: Tool executed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  tool:
+                    type: string
+                  result:
+                    type: object
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized - invalid or missing API key
+        '500':
+          description: Internal server error
+      security:
+        - bearerAuth: []
+
+  /tools:
+    get:
+      operationId: listTools
+      summary: List available memory tools
+      description: Returns all available ekkOS memory tools and their schemas
+      responses:
+        '200':
+          description: List of available tools
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tools:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        description:
+                          type: string
+                        inputSchema:
+                          type: object
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: API Key
+      description: |
+        Get your API key from https://ekkos.dev/dashboard/settings
+        Format: Bearer ek_xxxxx
+
+  schemas:
+    SearchMemoryArgs:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: Search query
+        limit:
+          type: integer
+          default: 10
+          description: Maximum results to return
+        sources:
+          type: array
+          items:
+            type: string
+            enum: [patterns, episodic, semantic, all]
+          default: [all]
+          description: Memory sources to search
+
+    ForgePatternArgs:
+      type: object
+      required:
+        - title
+        - problem
+        - solution
+      properties:
+        title:
+          type: string
+          description: Pattern title
+        problem:
+          type: string
+          description: What problem this solves
+        solution:
+          type: string
+          description: The solution approach
+        works_when:
+          type: array
+          items:
+            type: string
+          description: When this pattern applies
+        anti_patterns:
+          type: array
+          items:
+            type: string
+          description: What to avoid
+        tags:
+          type: array
+          items:
+            type: string
+          description: Categorization tags
+
+    GetContextArgs:
+      type: object
+      required:
+        - task
+      properties:
+        task:
+          type: string
+          description: Task description
+        maxEpisodes:
+          type: integer
+          default: 5
+        maxPatterns:
+          type: integer
+          default: 5
+
+    MemoryStats:
+      type: object
+      properties:
+        layers:
+          type: object
+          properties:
+            working:
+              type: integer
+            episodic:
+              type: integer
+            semantic:
+              type: integer
+            patterns:
+              type: integer
+            collective:
+              type: integer
+        total:
+          type: integer
+        timestamp:
+          type: string
+          format: date-time

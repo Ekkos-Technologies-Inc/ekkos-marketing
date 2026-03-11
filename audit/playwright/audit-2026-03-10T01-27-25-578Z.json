@@ -1,0 +1,4329 @@
+{
+  "generatedAt": "2026-03-10T01:27:25.578Z",
+  "baseUrl": "http://localhost:3100",
+  "routes": [
+    "/",
+    "/about",
+    "/brand",
+    "/docs",
+    "/docs/compliance/SOC2_CONTROLS",
+    "/docs/memory/privacy",
+    "/docs/memory/retention",
+    "/features",
+    "/features/forever-memory",
+    "/memory-privacy",
+    "/nvidia",
+    "/press",
+    "/pricing",
+    "/privacy",
+    "/pulse",
+    "/security",
+    "/status",
+    "/success",
+    "/support",
+    "/terms"
+  ],
+  "profiles": [
+    "desktop",
+    "mobile"
+  ],
+  "results": [
+    {
+      "route": "/",
+      "profile": "desktop",
+      "url": "http://localhost:3100/",
+      "startedAt": "2026-03-10T01:27:27.040Z",
+      "durationMs": 4528,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/nvidia",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 10
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+          "location": {
+            "url": "http://localhost:3100/api/stats",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x12c001ac200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x12c001ac200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x12c001ac200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x12c001ac200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": [
+        {
+          "url": "http://localhost:3100/api/stats",
+          "status": 503,
+          "resourceType": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "profile": "mobile",
+      "url": "http://localhost:3100/",
+      "startedAt": "2026-03-10T01:27:31.806Z",
+      "durationMs": 3559,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/nvidia",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 9
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+          "location": {
+            "url": "http://localhost:3100/api/stats",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": [
+        {
+          "url": "http://localhost:3100/api/stats",
+          "status": 503,
+          "resourceType": "fetch"
+        }
+      ]
+    },
+    {
+      "route": "/about",
+      "profile": "desktop",
+      "url": "http://localhost:3100/about",
+      "startedAt": "2026-03-10T01:27:35.487Z",
+      "durationMs": 3360,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "About - EKKOS",
+        "description": "The story behind EKKOS. Memory that echoes back.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Why EKKOS?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 13
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A05051000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/about",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/about",
+      "profile": "mobile",
+      "url": "http://localhost:3100/about",
+      "startedAt": "2026-03-10T01:27:39.109Z",
+      "durationMs": 2634,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "About - EKKOS",
+        "description": "The story behind EKKOS. Memory that echoes back.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Why EKKOS?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 13
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A05051000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/about",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/brand",
+      "profile": "desktop",
+      "url": "http://localhost:3100/brand",
+      "startedAt": "2026-03-10T01:27:41.867Z",
+      "durationMs": 2896,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Brand Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/images/wallpapers/circuit-landscape-desktop.png",
+          "/images/wallpapers/circuit-landscape-mobile.png",
+          "/images/wallpapers/neon-cityscape-desktop.png",
+          "/images/wallpapers/neon-cityscape-mobile.png",
+          "/images/wallpapers/data-streams-desktop.png",
+          "/images/wallpapers/data-streams-mobile.png",
+          "/images/wallpapers/neural-network-desktop.png",
+          "/images/wallpapers/neural-network-mobile.png",
+          "/images/wallpapers/memory-cathedral-desktop.png",
+          "/images/wallpapers/memory-cathedral-mobile.png",
+          "/images/wallpapers/quantum-grid-desktop.png",
+          "/images/wallpapers/quantum-grid-mobile.png",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 4,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 57
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "description": "Ensure select element has an accessible name",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/select-name?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 2,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/brand",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/brand",
+      "profile": "mobile",
+      "url": "http://localhost:3100/brand",
+      "startedAt": "2026-03-10T01:27:45.026Z",
+      "durationMs": 2071,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Brand Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/images/wallpapers/circuit-landscape-desktop.png",
+          "/images/wallpapers/circuit-landscape-mobile.png",
+          "/images/wallpapers/neon-cityscape-desktop.png",
+          "/images/wallpapers/neon-cityscape-mobile.png",
+          "/images/wallpapers/data-streams-desktop.png",
+          "/images/wallpapers/data-streams-mobile.png",
+          "/images/wallpapers/neural-network-desktop.png",
+          "/images/wallpapers/neural-network-mobile.png",
+          "/images/wallpapers/memory-cathedral-desktop.png",
+          "/images/wallpapers/memory-cathedral-mobile.png",
+          "/images/wallpapers/quantum-grid-desktop.png",
+          "/images/wallpapers/quantum-grid-mobile.png",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 4,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 2
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 58
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "description": "Ensure select element has an accessible name",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/select-name?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 2,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/brand",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs",
+      "startedAt": "2026-03-10T01:27:47.242Z",
+      "durationMs": 3120,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS™ Documentation"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [
+          "#patterns",
+          "#search-memory",
+          "#forge-pattern",
+          "#forge-directive",
+          "#check-conflict",
+          "#recall-conversation",
+          "#cursor",
+          "#claude-code",
+          "#vscode",
+          "#api"
+        ],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 14
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs",
+      "startedAt": "2026-03-10T01:27:50.773Z",
+      "durationMs": 2116,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS™ Documentation"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [
+          "#patterns",
+          "#search-memory",
+          "#forge-pattern",
+          "#forge-directive",
+          "#check-conflict",
+          "#recall-conversation",
+          "#cursor",
+          "#claude-code",
+          "#vscode",
+          "#api"
+        ],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 2
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 14
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/compliance/SOC2_CONTROLS",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+      "startedAt": "2026-03-10T01:27:53.312Z",
+      "durationMs": 5015,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "SOC 2 Controls | ekkOS",
+        "description": "SOC 2 Type II security controls implemented by ekkOS for enterprise-grade security and compliance.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "SOC 2 Type II Controls"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/security",
+          "/security",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 4
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A08051000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/compliance/SOC2_CONTROLS",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+      "startedAt": "2026-03-10T01:27:58.597Z",
+      "durationMs": 2317,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "SOC 2 Controls | ekkOS",
+        "description": "SOC 2 Type II security controls implemented by ekkOS for enterprise-grade security and compliance.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "SOC 2 Type II Controls"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/security",
+          "/security",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 4
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A08051000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/compliance/SOC2_CONTROLS",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/memory/privacy",
+      "startedAt": "2026-03-10T01:28:01.002Z",
+      "durationMs": 3760,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory & Privacy Model"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/memory-privacy",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 17
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/memory/privacy",
+      "startedAt": "2026-03-10T01:28:05.107Z",
+      "durationMs": 3018,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory & Privacy Model"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/memory-privacy",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 13
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 2
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/retention",
+      "profile": "desktop",
+      "url": "http://localhost:3100/docs/memory/retention",
+      "startedAt": "2026-03-10T01:28:08.338Z",
+      "durationMs": 3143,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory Retention Policies"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 28
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/retention",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/docs/memory/retention",
+      "profile": "mobile",
+      "url": "http://localhost:3100/docs/memory/retention",
+      "startedAt": "2026-03-10T01:28:11.719Z",
+      "durationMs": 2267,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Memory Retention Policies"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 15
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 4
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/docs/memory/retention",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features",
+      "profile": "desktop",
+      "url": "http://localhost:3100/features",
+      "startedAt": "2026-03-10T01:28:14.202Z",
+      "durationMs": 3632,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Capabilities"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/security",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 59
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features",
+      "profile": "mobile",
+      "url": "http://localhost:3100/features",
+      "startedAt": "2026-03-10T01:28:18.052Z",
+      "durationMs": 2040,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Capabilities"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/features/forever-memory",
+          "/docs",
+          "/security",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 59
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features/forever-memory",
+      "profile": "desktop",
+      "url": "http://localhost:3100/features/forever-memory",
+      "startedAt": "2026-03-10T01:28:20.204Z",
+      "durationMs": 2853,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Forever Memory™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/retention",
+          "/features",
+          "/docs",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features/forever-memory",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/features/forever-memory",
+      "profile": "mobile",
+      "url": "http://localhost:3100/features/forever-memory",
+      "startedAt": "2026-03-10T01:28:23.319Z",
+      "durationMs": 1899,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Forever Memory™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/retention",
+          "/features",
+          "/docs",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/features/forever-memory",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/memory-privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/memory-privacy",
+      "startedAt": "2026-03-10T01:28:25.339Z",
+      "durationMs": 2963,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How ekkOS Memory Privacy Works"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/privacy",
+          "/privacy",
+          "/terms",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 14
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/memory-privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/memory-privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/memory-privacy",
+      "startedAt": "2026-03-10T01:28:28.577Z",
+      "durationMs": 2015,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How ekkOS Memory Privacy Works"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/docs/memory/privacy",
+          "/privacy",
+          "/terms",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 14
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/memory-privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/nvidia",
+      "profile": "desktop",
+      "url": "http://localhost:3100/nvidia",
+      "startedAt": "2026-03-10T01:28:30.717Z",
+      "durationMs": 3534,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "NVIDIA Inception Program | ekkOS",
+        "description": "ekkOS Technologies is a proud member of the NVIDIA Inception program, accelerating AI memory infrastructure development.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_×NVIDIA Inception"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/nvidia",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/nvidia",
+      "profile": "mobile",
+      "url": "http://localhost:3100/nvidia",
+      "startedAt": "2026-03-10T01:28:34.497Z",
+      "durationMs": 1956,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "NVIDIA Inception Program | ekkOS",
+        "description": "ekkOS Technologies is a proud member of the NVIDIA Inception program, accelerating AI memory infrastructure development.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_×NVIDIA Inception"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/nvidia",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/press",
+      "profile": "desktop",
+      "url": "http://localhost:3100/press",
+      "startedAt": "2026-03-10T01:28:36.566Z",
+      "durationMs": 2780,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Press Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/brand",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 5
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 7
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/press",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/press",
+      "profile": "mobile",
+      "url": "http://localhost:3100/press",
+      "startedAt": "2026-03-10T01:28:39.648Z",
+      "durationMs": 2150,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Press Kit"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/brand",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 6
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 7
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/press",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pricing",
+      "profile": "desktop",
+      "url": "http://localhost:3100/pricing",
+      "startedAt": "2026-03-10T01:28:41.936Z",
+      "durationMs": 2873,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Access Tiers"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 6
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pricing",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pricing",
+      "profile": "mobile",
+      "url": "http://localhost:3100/pricing",
+      "startedAt": "2026-03-10T01:28:45.100Z",
+      "durationMs": 1886,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Access Tiers"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 9
+          },
+          {
+            "id": "scrollable-region-focusable",
+            "impact": "serious",
+            "description": "Ensure elements that have scrollable content are accessible by keyboard",
+            "help": "Scrollable region must have keyboard access",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pricing",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/privacy",
+      "profile": "desktop",
+      "url": "http://localhost:3100/privacy",
+      "startedAt": "2026-03-10T01:28:47.106Z",
+      "durationMs": 2773,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Privacy Policy"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/terms",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 71
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/privacy",
+      "profile": "mobile",
+      "url": "http://localhost:3100/privacy",
+      "startedAt": "2026-03-10T01:28:50.333Z",
+      "durationMs": 1917,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Privacy Policy"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/terms",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 72
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/privacy",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pulse",
+      "profile": "desktop",
+      "url": "http://localhost:3100/pulse",
+      "startedAt": "2026-03-10T01:28:52.359Z",
+      "durationMs": 2898,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_Pulse™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/pricing",
+          "/features",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 24
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pulse",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/pulse",
+      "profile": "mobile",
+      "url": "http://localhost:3100/pulse",
+      "startedAt": "2026-03-10T01:28:55.526Z",
+      "durationMs": 2274,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "ekkOS_Pulse™"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/pricing",
+          "/features",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 25
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/pulse",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/security",
+      "profile": "desktop",
+      "url": "http://localhost:3100/security",
+      "startedAt": "2026-03-10T01:28:57.885Z",
+      "durationMs": 2452,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "Security | ekkOS",
+        "description": "Enterprise-grade security for AI memory. SOC 2 Type II in progress, end-to-end encryption, and built for teams that need peace of mind.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Enterprise-Grade Security"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 3
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/security",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/security",
+      "profile": "mobile",
+      "url": "http://localhost:3100/security",
+      "startedAt": "2026-03-10T01:29:00.794Z",
+      "durationMs": 1980,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "Security | ekkOS",
+        "description": "Enterprise-grade security for AI memory. SOC 2 Type II in progress, end-to-end encryption, and built for teams that need peace of mind.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Enterprise-Grade Security"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 3
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/security",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/status",
+      "profile": "desktop",
+      "url": "http://localhost:3100/status",
+      "startedAt": "2026-03-10T01:29:02.898Z",
+      "durationMs": 2754,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Status"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 12
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "description": "Ensure links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=playwright",
+            "nodes": 4
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/status",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/status",
+      "profile": "mobile",
+      "url": "http://localhost:3100/status",
+      "startedAt": "2026-03-10T01:29:05.829Z",
+      "durationMs": 1894,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "System Status"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/support",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 12
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "description": "Ensure links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=playwright",
+            "nodes": 4
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/status",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/success",
+      "profile": "desktop",
+      "url": "http://localhost:3100/success",
+      "startedAt": "2026-03-10T01:29:07.851Z",
+      "durationMs": 2779,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Welcome to ekkOS Pro!"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 1,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/success",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/success",
+      "profile": "mobile",
+      "url": "http://localhost:3100/success",
+      "startedAt": "2026-03-10T01:29:10.860Z",
+      "durationMs": 1861,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Welcome to ekkOS Pro!"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 5
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 1,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/success",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/support",
+      "profile": "desktop",
+      "url": "http://localhost:3100/support",
+      "startedAt": "2026-03-10T01:29:12.842Z",
+      "durationMs": 3472,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How can we help?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/status",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 4
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "description": "Ensure select element has an accessible name",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/select-name?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/support",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/support",
+      "profile": "mobile",
+      "url": "http://localhost:3100/support",
+      "startedAt": "2026-03-10T01:29:16.616Z",
+      "durationMs": 1872,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "How can we help?"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/docs",
+          "/status",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 4,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 4
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "description": "Ensure select element has an accessible name",
+            "help": "Select element must have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/select-name?application=playwright",
+            "nodes": 1
+          }
+        ],
+        "criticalCount": 2,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/support",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/terms",
+      "profile": "desktop",
+      "url": "http://localhost:3100/terms",
+      "startedAt": "2026-03-10T01:29:18.609Z",
+      "durationMs": 2802,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Terms of Service"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/privacy",
+          "/privacy",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 2,
+        "summary": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 38
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 2
+          }
+        ],
+        "criticalCount": 0,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/terms",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    },
+    {
+      "route": "/terms",
+      "profile": "mobile",
+      "url": "http://localhost:3100/terms",
+      "startedAt": "2026-03-10T01:29:21.665Z",
+      "durationMs": 1923,
+      "mainStatus": 200,
+      "navError": null,
+      "dom": {
+        "title": "ekkOS - AI Memory That Gets Smarter Over Time | Persistent Memory for AI Agents",
+        "description": "Give your AI a real brain. ekkOS provides persistent memory that learns, remembers, and gets smarter with every session. Works across ChatGPT, Claude, Cursor, and all MCP-compatible tools.",
+        "canonical": "",
+        "lang": "en",
+        "viewport": "width=device-width, initial-scale=1",
+        "h1s": [
+          "Terms of Service"
+        ],
+        "missingAlt": [],
+        "anchorIssues": [],
+        "horizontalOverflow": false,
+        "internalLinks": [
+          "/",
+          "/about",
+          "/features",
+          "/pulse",
+          "/pricing",
+          "/",
+          "/privacy",
+          "/privacy",
+          "/support",
+          "/docs",
+          "/",
+          "/features",
+          "/pricing",
+          "/status",
+          "/about",
+          "/brand",
+          "/security",
+          "/docs/compliance/SOC2_CONTROLS",
+          "/privacy",
+          "/terms",
+          "/security",
+          "/status"
+        ]
+      },
+      "axe": {
+        "violationCount": 3,
+        "summary": [
+          {
+            "id": "button-name",
+            "impact": "critical",
+            "description": "Ensure buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright",
+            "nodes": 1
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+            "nodes": 40
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "help": "Links must be distinguishable without relying on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-in-text-block?application=playwright",
+            "nodes": 2
+          }
+        ],
+        "criticalCount": 1,
+        "seriousCount": 2,
+        "moderateCount": 0,
+        "minorCount": 0
+      },
+      "consoleErrors": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "location": {
+            "url": "http://localhost:3100/_vercel/insights/script.js",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "ignoredConsoleErrors": [],
+      "consoleWarnings": [
+        {
+          "type": "warning",
+          "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0F050000C010000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.",
+          "location": {
+            "url": "http://localhost:3100/terms",
+            "lineNumber": 0,
+            "columnNumber": 0
+          }
+        }
+      ],
+      "requestFailures": [],
+      "responseErrors": []
+    }
+  ],
+  "findings": [
+    {
+      "severity": "high",
+      "page": "/ (desktop)",
+      "issue": "1 response(s) returned 4xx/5xx"
+    },
+    {
+      "severity": "high",
+      "page": "/ (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/ (mobile)",
+      "issue": "1 response(s) returned 4xx/5xx"
+    },
+    {
+      "severity": "high",
+      "page": "/ (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/about (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/about (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/brand (desktop)",
+      "issue": "A11y violations: 2 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/brand (mobile)",
+      "issue": "A11y violations: 2 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs (desktop)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/compliance/SOC2_CONTROLS (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/compliance/SOC2_CONTROLS (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/memory/privacy (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/memory/privacy (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/memory/retention (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/docs/memory/retention (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/features (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/features (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/features/forever-memory (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/features/forever-memory (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/memory-privacy (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/memory-privacy (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/nvidia (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/nvidia (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/press (desktop)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/press (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/pricing (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/pricing (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/privacy (desktop)",
+      "issue": "A11y violations: 0 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/privacy (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/pulse (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/pulse (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/security (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/security (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/status (desktop)",
+      "issue": "A11y violations: 0 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/status (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/success (desktop)",
+      "issue": "A11y violations: 0 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/success (mobile)",
+      "issue": "A11y violations: 1 critical, 1 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/support (desktop)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/support (mobile)",
+      "issue": "A11y violations: 2 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/terms (desktop)",
+      "issue": "A11y violations: 0 critical, 2 serious"
+    },
+    {
+      "severity": "high",
+      "page": "/terms (mobile)",
+      "issue": "A11y violations: 1 critical, 2 serious"
+    },
+    {
+      "severity": "medium",
+      "page": "/ (desktop)",
+      "issue": "2 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/ (mobile)",
+      "issue": "2 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/about (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/about (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/brand (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/brand (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/compliance/SOC2_CONTROLS (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/compliance/SOC2_CONTROLS (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/memory/privacy (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/memory/privacy (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/memory/retention (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/docs/memory/retention (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/features (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/features (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/features/forever-memory (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/features/forever-memory (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/memory-privacy (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/memory-privacy (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/nvidia (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/nvidia (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/press (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/press (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/pricing (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/pricing (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/privacy (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/privacy (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/pulse (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/pulse (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/security (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/security (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/status (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/status (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/success (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/success (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/support (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/support (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/terms (desktop)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "medium",
+      "page": "/terms (mobile)",
+      "issue": "1 console error(s)"
+    },
+    {
+      "severity": "low",
+      "page": "/docs (desktop)",
+      "issue": "10 in-page anchor(s) target missing"
+    },
+    {
+      "severity": "low",
+      "page": "/docs (mobile)",
+      "issue": "10 in-page anchor(s) target missing"
+    }
+  ],
+  "summary": {
+    "critical": 0,
+    "high": 42,
+    "medium": 40,
+    "low": 2,
+    "passes": 0
+  }
+}

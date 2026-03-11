@@ -1,0 +1,9 @@
+# robots.txt for https://ekkos.dev
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /success
+
+Sitemap: https://ekkos.dev/sitemap.xml

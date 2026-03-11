@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "EKKOS - AI 的记忆基底",
+    "description": "赋予您的 AI 持久记忆。模式复合增长。上下文持续保留。智能不断成长。"
+  },
+  "nav": {
+    "features": "功能",
+    "pricing": "定价",
+    "docs": "文档",
+    "signIn": "登录",
+    "getStarted": "开始使用"
+  },
+  "hero": {
+    "badge": "AI 的记忆基底",
+    "headline": "记忆，回响而归。",
+    "subheadline": "您的 AI 在会话之间忘记一切。架构决策。编码模式。来之不易的解决方案。",
+    "subheadlineHighlight": "EKKOS 改变这一切。",
+    "cta": "免费开始",
+    "viewDocs": "查看文档",
+    "worksWithIdes": "支持 Cursor、VS Code、Claude Code、Windsurf"
+  },
+  "problem": {
+    "title": "每次会话都从零开始。",
+    "monday": "周一",
+    "mondayTask": "\"用 Supabase 构建认证\"",
+    "mondayResult": "AI 完美构建",
+    "tuesday": "周二",
+    "tuesdayTask": "\"添加密码重置\"",
+    "tuesdayResult": "\"你使用的是什么认证系统？\"",
+    "explanation": "你以前解决过这个问题。你以前解释过你的架构。",
+    "explanationHighlight": "你的 AI 不记得。你重新解释。每一次。"
+  },
+  "solution": {
+    "title": "EKKOS 记得。",
+    "subtitle": "每个模式。每个决策。每个解决方案。在你需要时回响而归。",
+    "patternsCompound": "模式复合增长",
+    "patternsCompoundDesc": "你以前使用的解决方案自动浮现。",
+    "contextPersists": "上下文持续保留",
+    "contextPersistsDesc": "你的 AI 了解你的技术栈、风格和决策。",
+    "intelligenceGrows": "智能不断成长",
+    "intelligenceGrowsDesc": "每次交互都让你的 AI 更聪明。"
+  },
+  "individuals": {
+    "title": "你的模式，放大化。",
+    "subtitle": "无论你是在心流状态快速交付，还是精心设计复杂系统——你的 AI 应该了解你的模式。",
+    "features": {
+      "conventions": "你偏好的编码规范",
+      "patterns": "有效的架构模式",
+      "solutions": "经过实战检验的解决方案",
+      "context": "以往会话的上下文"
+    },
+    "tagline": "停止重复自己。开始复合增长。",
+    "planType": "个人计划",
+    "planName": "独立开发者",
+    "testimonial": "\"3个月前我解决了这个认证竞态条件。我的 AI 用 'ekko auth race' 找到了确切的模式。节省了2小时。\""
+  },
+  "teams": {
+    "title": "机构知识，完整保留。",
+    "subtitle": "你的团队有模式。有规范。有来之不易的经验。你的 AI 应该了解它们。",
+    "sharedPatterns": "共享模式",
+    "sharedPatternsDesc": "团队模式可用于每次 AI 交互。",
+    "consistentSuggestions": "一致的建议",
+    "consistentSuggestionsDesc": "相同的模式，相同的质量，整个团队。",
+    "onboardingAcceleration": "入职加速",
+    "onboardingAccelerationDesc": "新工程师 + EKKOS = 即时团队知识。",
+    "architectureEnforcement": "架构强制执行",
+    "architectureEnforcementDesc": "决策回响到每个建议中。"
+  },
+  "tools": {
+    "title": "五个工具。完整记忆。",
+    "subtitle": "EKKOS = 回声。当你的 AI 需要记忆时，它发送一个回声。你的知识回响而归。",
+    "ekko": "ekko",
+    "ekkoDesc": "搜索模式",
+    "crystallize": "crystallize",
+    "crystallizeDesc": "保存洞察",
+    "reflex": "reflex",
+    "reflexDesc": "获取指导",
+    "trace": "trace",
+    "traceDesc": "发现解决方案",
+    "consolidate": "consolidate",
+    "consolidateDesc": "锁定学习"
+  },
+  "pricing": {
+    "title": "简单定价。免费开始。",
+    "subtitle": "无需信用卡。准备好时再升级。",
+    "free": {
+      "tier": "Developer",
+      "name": "免费",
+      "price": "¥0",
+      "period": "/月",
+      "features": {
+        "ekkos": "1,000 次回声/月",
+        "crystallizations": "100 次结晶/月",
+        "retention": "7天记忆保留",
+        "connections": "1个 IDE 连接",
+        "support": "社区支持"
+      },
+      "cta": "免费开始"
+    },
+    "pro": {
+      "tier": "Professional",
+      "name": "专业版",
+      "badge": "最受欢迎",
+      "price": "¥139",
+      "period": "/月",
+      "features": {
+        "ekkos": "无限回声",
+        "crystallizations": "无限结晶",
+        "retention": "永久记忆保留",
+        "connections": "无限 IDE 连接",
+        "collective": "集体记忆访问",
+        "support": "优先支持"
+      },
+      "cta": "即将推出"
+    },
+    "team": {
+      "tier": "Team",
+      "name": "团队版",
+      "price": "¥279",
+      "period": "/席位/月",
+      "features": {
+        "everything": "专业版所有功能",
+        "sharedMemory": "团队共享记忆",
+        "analytics": "团队分析",
+        "admin": "管理员控制",
+        "sso": "SSO 集成",
+        "support": "优先支持"
+      },
+      "cta": "联系我们"
+    },
+    "enterprise": "需要企业功能？自托管？自定义合规？",
+    "enterpriseCta": "联系我们 →"
+  },
+  "cta": {
+    "title": "准备好赋予你的 AI 记忆了吗？",
+    "subtitle": "2分钟完成设置。个人使用永久免费。",
+    "button": "免费开始",
+    "noCreditCard": "无需信用卡。"
+  },
+  "footer": {
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "about": "关于",
+    "blog": "博客",
+    "careers": "招聘",
+    "privacy": "隐私",
+    "terms": "条款",
+    "copyright": "© {year} ekkOS Technologies Inc."
+  },
+  "language": {
+    "select": "语言",
+    "auto": "自动检测",
+    "aiTranslated": "AI 翻译"
+  }
+}

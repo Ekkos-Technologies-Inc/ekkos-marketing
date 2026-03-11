@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "ekkOS_™ - Cognitive Infrastructure for AI",
+    "description": "ekkOS_™ gives AI agents persistent cognitive infrastructure. Three-plane architecture, Golden Loop learning, and long-horizon reasoning."
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "signIn": "Sign In",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Cognitive Infrastructure Platform",
+    "headline": "Your AI should learn and remember like humans.",
+    "subheadline": "ekkOS is cognitive infrastructure—not just memory. Three-plane architecture (Data/Processing/Access) with Golden Loop learning that makes AI agents build on past experiences and improve over time. When you come back tomorrow, next week, or three months from now, your AI still knows your stack, style, and solutions.",
+    "subheadlineHighlight": "",
+    "cta": "Get started free",
+    "viewDocs": "Try ekkOS_™ in your IDE",
+    "worksWithIdes": "Works with Cursor, VS Code, Claude Code, Windsurf"
+  },
+  "problem": {
+    "title": "Every session should not start from zero.",
+    "monday": "Monday",
+    "mondayTask": "On Monday, your AI wires up authentication with Supabase.",
+    "mondayResult": "",
+    "tuesday": "Tuesday",
+    "tuesdayTask": "On Tuesday, you ask it to build password reset.",
+    "tuesdayResult": "Instead of reusing what it built, it asks: \"What auth system are you using?\"",
+    "explanation": "You explain everything again. You paste files again. You re-describe your architecture again.",
+    "explanationHighlight": "AI is powerful — but without cognitive infrastructure, it forgets everything between sessions. ekkOS fixes this with a three-plane architecture (Data/Processing/Access) and Golden Loop learning that creates a stable, growing cognitive substrate shared across all your tools."
+  },
+  "solution": {
+    "title": "Your patterns become your unfair advantage.",
+    "subtitle": "",
+    "patternsCompound": "Patterns evolve",
+    "patternsCompoundDesc": "Every time you solve a problem, ekkOS_™ captures the pattern through Golden Loop learning. Next time a similar issue appears, your AI retrieves your own battle-tested solution from the cognitive infrastructure.",
+    "contextPersists": "Cognitive substrate persists",
+    "contextPersistsDesc": "Your tech stack. Your conventions. Your preferences. ekkOS_™ maintains them in a persistent cognitive substrate across sessions so your AI answers like a long-time collaborator, not a stranger.",
+    "intelligenceGrows": "Golden Loop learning",
+    "intelligenceGrowsDesc": "Each interaction evolves your cognitive infrastructure through the Golden Loop: capture → learn → retrieve → apply → measure. The more you ship, the sharper your AI becomes."
+  },
+  "individuals": {
+    "title": "Your best fixes should never be one-offs.",
+    "subtitle": "ekkOS_™ automatically captures:",
+    "features": {
+      "conventions": "Your coding conventions",
+      "patterns": "Architecture patterns that work",
+      "solutions": "Weird edge cases you solved once but don't want to rediscover",
+      "context": "Debugging sessions, conclusions, and rationales"
+    },
+    "tagline": "So when you hit the same class of problem months later, your AI can say: \"You solved this before. Here's how you fixed it — and why.\"",
+    "planType": "Individual Plan",
+    "planName": "Solo Developer",
+    "testimonial": "\"I solved this auth race condition 3 months ago. My AI found the exact pattern with 'ekko auth race'. Saved me 2 hours.\""
+  },
+  "teams": {
+    "title": "Turn team knowledge into shared memory.",
+    "subtitle": "",
+    "sharedPatterns": "Shared patterns",
+    "sharedPatternsDesc": "Everyone learns from the team's best decisions.",
+    "consistentSuggestions": "Consistent suggestions",
+    "consistentSuggestionsDesc": "AI guidance aligns with your engineering standards.",
+    "onboardingAcceleration": "Faster onboarding",
+    "onboardingAccelerationDesc": "New engineers gain instant access to the team's accumulated knowledge.",
+    "architectureEnforcement": "Architecture enforcement",
+    "architectureEnforcementDesc": "When someone drifts from approved patterns, the AI nudges them back."
+  },
+  "tools": {
+    "title": "Five tools. One cognitive infrastructure.",
+    "subtitle": "",
+    "ekko": "ekko",
+    "ekkoDesc": "Search your cognitive infrastructure for past decisions and patterns.",
+    "crystallize": "crystallize",
+    "crystallizeDesc": "Permanently preserve an insight or architectural decision.",
+    "reflex": "reflex",
+    "reflexDesc": "Real-time guidance inside your IDE based on your cognitive infrastructure.",
+    "trace": "trace",
+    "traceDesc": "Follow a problem back through past incidents and fixes.",
+    "consolidate": "consolidate",
+    "consolidateDesc": "Combine scattered learnings into stable, reusable patterns."
+  },
+  "pricing": {
+    "title": "Simple pricing. Start free.",
+    "subtitle": "No credit card required. Upgrade when you're ready.",
+    "free": {
+      "tier": "Developer",
+      "name": "Free",
+      "price": "$0",
+      "period": "/month",
+      "features": {
+        "ekkos": "1,000 ekkos per month",
+        "crystallizations": "100 crystallizations",
+        "retention": "7-day memory retention",
+        "connections": "1 IDE connection",
+        "mcp": "MCP support (Cursor, VS Code, Claude Code, Windsurf)",
+        "support": "Community support",
+        "console": "Web console access"
+      },
+      "cta": "Get Started Free"
+    },
+    "pro": {
+      "tier": "Professional",
+      "name": "Pro",
+      "badge": "MOST POPULAR",
+      "price": "$19",
+      "period": "/month",
+      "features": {
+        "ekkos": "Unlimited ekkos",
+        "crystallizations": "Unlimited crystallizations",
+        "retention": "Forever retention",
+        "connections": "Unlimited IDE connections",
+        "analytics": "Personal analytics",
+        "api": "API access",
+        "collective": "Access to Collective Memory layer",
+        "support": "Priority support",
+        "insights": "Pattern insights & personalized suggestions"
+      },
+      "cta": "Coming Soon"
+    },
+    "team": {
+      "tier": "Team",
+      "name": "Team",
+      "price": "$49",
+      "period": "/seat/mo",
+      "features": {
+        "everything": "Everything in Pro",
+        "sharedMemory": "Team shared cognitive infrastructure",
+        "patterns": "Organization-wide pattern library",
+        "conventions": "Shared coding and architecture conventions",
+        "analytics": "Team analytics dashboard",
+        "admin": "Admin controls",
+        "rbac": "Role-based access",
+        "sso": "SSO integration",
+        "retention": "Custom retention windows"
+      },
+      "cta": "Start a Team"
+    },
+    "enterprise": {
+      "tier": "Enterprise",
+      "name": "Enterprise",
+      "price": "Custom",
+      "period": "",
+      "features": {
+        "everything": "Everything in Team",
+        "vpc": "Dedicated VPC or private region",
+        "selfhost": "Air-gapped or self-hosted ekkOS_™",
+        "compliance": "SOC2 / ISO-ready deployment options",
+        "sla": "Custom SLAs",
+        "engineer": "Dedicated support engineer",
+        "audit": "Full audit logging",
+        "retention": "Compliance-driven retention policies",
+        "gateway": "Option for on-prem MCP gateway"
+      },
+      "cta": "Contact ekkOS_™"
+    }
+  },
+  "cta": {
+    "title": "Persistent AI memory in under two minutes.",
+    "subtitle": "Add ekkOS_™ to your existing workflow using our MCP client. Works instantly with Cursor, VS Code, Claude Code, Windsurf, and more. The Developer plan is free forever. No credit card required.",
+    "button": "Get started free",
+    "noCreditCard": ""
+  },
+  "footer": {
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} ekkOS Technologies Inc. All rights reserved."
+  },
+  "language": {
+    "select": "Language",
+    "auto": "Auto-detect",
+    "aiTranslated": "AI Translated"
+  }
+}

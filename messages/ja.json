@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "EKKOS - AI のメモリ基盤",
+    "description": "AI に永続的なメモリを。パターンは蓄積。コンテキストは持続。インテリジェンスは成長。"
+  },
+  "nav": {
+    "features": "機能",
+    "pricing": "料金",
+    "docs": "ドキュメント",
+    "signIn": "ログイン",
+    "getStarted": "始める"
+  },
+  "hero": {
+    "badge": "AI のメモリ基盤",
+    "headline": "記憶が響き返る。",
+    "subheadline": "あなたの AI はセッション間で全てを忘れます。アーキテクチャの決定。コーディングパターン。苦労して得た解決策。",
+    "subheadlineHighlight": "EKKOS がそれを変えます。",
+    "cta": "無料で始める",
+    "viewDocs": "ドキュメントを見る",
+    "worksWithIdes": "Cursor、VS Code、Claude Code、Windsurf で動作"
+  },
+  "problem": {
+    "title": "毎回ゼロからスタート。",
+    "monday": "月曜日",
+    "mondayTask": "「Supabase で認証を構築」",
+    "mondayResult": "AI が完璧に構築",
+    "tuesday": "火曜日",
+    "tuesdayTask": "「パスワードリセットを追加」",
+    "tuesdayResult": "「どの認証システムを使っていますか？」",
+    "explanation": "以前解決したことがある。以前アーキテクチャを説明したことがある。",
+    "explanationHighlight": "あなたの AI は覚えていない。毎回説明し直す。"
+  },
+  "solution": {
+    "title": "EKKOS は覚えている。",
+    "subtitle": "すべてのパターン。すべての決定。すべての解決策。必要な時に響き返る。",
+    "patternsCompound": "パターンが蓄積",
+    "patternsCompoundDesc": "以前使った解決策が自動的に浮上。",
+    "contextPersists": "コンテキストが持続",
+    "contextPersistsDesc": "あなたの AI はスタック、スタイル、決定を知っている。",
+    "intelligenceGrows": "インテリジェンスが成長",
+    "intelligenceGrowsDesc": "すべてのインタラクションが AI を賢くする。"
+  },
+  "individuals": {
+    "title": "あなたのパターンを増幅。",
+    "subtitle": "フロー状態で素早く出荷するときも、複雑なシステムを慎重に設計するときも—AI はあなたのパターンを知るべき。",
+    "features": {
+      "conventions": "好みのコーディング規約",
+      "patterns": "機能するアーキテクチャパターン",
+      "solutions": "実戦テスト済みの解決策",
+      "context": "以前のセッションからのコンテキスト"
+    },
+    "tagline": "繰り返しをやめて。蓄積を始めて。",
+    "planType": "個人プラン",
+    "planName": "ソロ開発者",
+    "testimonial": "「3ヶ月前にこの認証レースコンディションを解決した。'ekko auth race' で AI が正確なパターンを見つけた。2時間節約。」"
+  },
+  "teams": {
+    "title": "組織の知識を保存。",
+    "subtitle": "チームにはパターンがある。規約がある。苦労して得た教訓がある。AI はそれを知るべき。",
+    "sharedPatterns": "共有パターン",
+    "sharedPatternsDesc": "チームパターンがすべての AI インタラクションで利用可能。",
+    "consistentSuggestions": "一貫した提案",
+    "consistentSuggestionsDesc": "同じパターン、同じ品質、チーム全体で。",
+    "onboardingAcceleration": "オンボーディング加速",
+    "onboardingAccelerationDesc": "新エンジニア + EKKOS = 即時チーム知識。",
+    "architectureEnforcement": "アーキテクチャ強制",
+    "architectureEnforcementDesc": "決定がすべての提案に響き渡る。"
+  },
+  "tools": {
+    "title": "5つのツール。完全なメモリ。",
+    "subtitle": "EKKOS = エコー。AI が覚える必要があるとき、エコーを送る。知識が響き返る。",
+    "ekko": "ekko",
+    "ekkoDesc": "パターン検索",
+    "crystallize": "crystallize",
+    "crystallizeDesc": "洞察を保存",
+    "reflex": "reflex",
+    "reflexDesc": "ガイダンス取得",
+    "trace": "trace",
+    "traceDesc": "解決策を発見",
+    "consolidate": "consolidate",
+    "consolidateDesc": "学習をロック"
+  },
+  "pricing": {
+    "title": "シンプルな料金。無料で開始。",
+    "subtitle": "クレジットカード不要。準備ができたらアップグレード。",
+    "free": {
+      "tier": "Developer",
+      "name": "無料",
+      "price": "¥0",
+      "period": "/月",
+      "features": {
+        "ekkos": "1,000 エコー/月",
+        "crystallizations": "100 結晶化/月",
+        "retention": "7日間メモリ保持",
+        "connections": "1 IDE 接続",
+        "support": "コミュニティサポート"
+      },
+      "cta": "無料で始める"
+    },
+    "pro": {
+      "tier": "Professional",
+      "name": "Pro",
+      "badge": "最も人気",
+      "price": "¥2,900",
+      "period": "/月",
+      "features": {
+        "ekkos": "無制限エコー",
+        "crystallizations": "無制限結晶化",
+        "retention": "永久メモリ保持",
+        "connections": "無制限 IDE 接続",
+        "collective": "コレクティブメモリアクセス",
+        "support": "優先サポート"
+      },
+      "cta": "近日公開"
+    },
+    "team": {
+      "tier": "Team",
+      "name": "チーム",
+      "price": "¥5,900",
+      "period": "/席/月",
+      "features": {
+        "everything": "Pro のすべて",
+        "sharedMemory": "チーム共有メモリ",
+        "analytics": "チーム分析",
+        "admin": "管理者コントロール",
+        "sso": "SSO 統合",
+        "support": "優先サポート"
+      },
+      "cta": "お問い合わせ"
+    },
+    "enterprise": "エンタープライズ機能が必要？セルフホスティング？カスタムコンプライアンス？",
+    "enterpriseCta": "ご相談ください →"
+  },
+  "cta": {
+    "title": "AI にメモリを与える準備はできた？",
+    "subtitle": "2分でセットアップ。個人利用は永久無料。",
+    "button": "無料で始める",
+    "noCreditCard": "クレジットカード不要。"
+  },
+  "footer": {
+    "product": "製品",
+    "company": "会社",
+    "legal": "法的",
+    "about": "会社概要",
+    "blog": "ブログ",
+    "careers": "採用",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "copyright": "© {year} ekkOS Technologies Inc."
+  },
+  "language": {
+    "select": "言語",
+    "auto": "自動検出",
+    "aiTranslated": "AI 翻訳"
+  }
+}

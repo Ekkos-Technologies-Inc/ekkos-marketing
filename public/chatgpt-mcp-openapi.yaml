@@ -1,0 +1,184 @@
+openapi: 3.1.0
+info:
+  title: ekkOS Memory MCP API
+  description: |
+    Access ekkOS 8-layer memory system via MCP (Model Context Protocol).
+
+    This API allows ChatGPT to search patterns, forge new insights, track applications,
+    and record outcomes - creating a feedback loop that makes the system smarter over time.
+  version: 1.0.0
+  contact:
+    name: ekkOS Support
+    url: https://ekkos.dev
+
+servers:
+  - url: https://api.ekkos.dev
+    description: Production ekkOS API
+
+security:
+  - BearerAuth: []
+
+paths:
+  /api/v1/mcp/tools:
+    get:
+      operationId: listTools
+      summary: List available MCP tools
+      description: Returns all available memory tools and their schemas
+      tags:
+        - MCP
+      responses:
+        '200':
+          description: List of available tools
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tools:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Tool'
+                  server:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                        example: "ekkos-cloud-mcp"
+                      version:
+                        type: string
+                        example: "1.0.0"
+                      transport:
+                        type: string
+                        example: "http-sse"
+
+  /api/v1/mcp/call:
+    post:
+      operationId: callTool
+      summary: Call an MCP tool
+      description: Execute a memory tool with the provided arguments
+      tags:
+        - MCP
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - tool
+              properties:
+                tool:
+                  type: string
+                  description: Name of the tool to call
+                  enum:
+                    - search_memory
+                    - get_context
+                    - capture_event
+                    - forge_pattern
+                    - track_application
+                    - record_outcome
+                    - get_memory_stats
+                  example: "ekkOS_Search"
+                arguments:
+                  type: object
+                  description: Tool-specific arguments (see tool schemas)
+                  example:
+                    query: "authentication"
+                    limit: 5
+            examples:
+              search_memory:
+                summary: Search for patterns about authentication
+                value:
+                  tool: "ekkOS_Search"
+                  arguments:
+                    query: "authentication"
+                    limit: 5
+                    sources: ["patterns"]
+              forge_pattern:
+                summary: Create a new pattern from a solution
+                value:
+                  tool: "ekkOS_Forge"
+                  arguments:
+                    title: "OAuth Setup Complete"
+                    problem: "Need to connect ChatGPT to ekkOS"
+                    solution: "Successfully configured OAuth MCP connector"
+                    tags: ["oauth", "chatgpt", "integration"]
+              get_memory_stats:
+                summary: Get memory layer statistics
+                value:
+                  tool: "ekkOS_Stats"
+                  arguments: {}
+      responses:
+        '200':
+          description: Tool executed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  tool:
+                    type: string
+                    example: "ekkOS_Search"
+                  userId:
+                    type: string
+                    example: "system"
+                  result:
+                    type: object
+                    description: Tool-specific result
+        '400':
+          description: Bad request - missing or invalid tool name
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Unauthorized - invalid or missing API key
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    Tool:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "ekkOS_Search"
+        description:
+          type: string
+          example: "Search ekkOS memory for patterns, episodes, and semantic knowledge"
+        inputSchema:
+          type: object
+          description: JSON Schema for tool arguments
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "Unauthorized"
+        message:
+          type: string
+          example: "Invalid API key"
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: ekk_
+      description: |
+        Use your ekkOS API key with Bearer authentication.
+        Example: Authorization: Bearer ekk_chatgpt_YOUR_API_KEY_HERE
+tags:
+  - name: MCP
+    description: Model Context Protocol operations for memory access

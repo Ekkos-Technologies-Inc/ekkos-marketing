@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "EKKOS - Das Gedächtnissubstrat für KI",
+    "description": "Geben Sie Ihrer KI ein dauerhaftes Gedächtnis. Muster potenzieren sich. Kontext bleibt erhalten. Intelligenz wächst."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "docs": "Dokumentation",
+    "signIn": "Anmelden",
+    "getStarted": "Loslegen"
+  },
+  "hero": {
+    "badge": "Das Gedächtnissubstrat für KI",
+    "headline": "Erinnerung, die zurückhallt.",
+    "subheadline": "Ihre KI vergisst alles zwischen den Sitzungen. Architekturentscheidungen. Coding-Muster. Hart erkämpfte Lösungen.",
+    "subheadlineHighlight": "EKKOS ändert das.",
+    "cta": "Kostenlos starten",
+    "viewDocs": "Dokumentation ansehen",
+    "worksWithIdes": "Funktioniert mit Cursor, VS Code, Claude Code, Windsurf"
+  },
+  "problem": {
+    "title": "Jede Sitzung beginnt bei Null.",
+    "monday": "Montag",
+    "mondayTask": "\"Authentifizierung mit Supabase erstellen\"",
+    "mondayResult": "KI baut es perfekt",
+    "tuesday": "Dienstag",
+    "tuesdayTask": "\"Passwort-Reset hinzufügen\"",
+    "tuesdayResult": "\"Welches Auth-System verwendest du?\"",
+    "explanation": "Sie haben das schon gelöst. Sie haben Ihre Architektur schon erklärt.",
+    "explanationHighlight": "Ihre KI erinnert sich nicht. Sie erklären neu. Jedes. Mal."
+  },
+  "solution": {
+    "title": "EKKOS erinnert sich.",
+    "subtitle": "Jedes Muster. Jede Entscheidung. Jede Lösung. Sie hallen zurück, wenn Sie sie brauchen.",
+    "patternsCompound": "Muster potenzieren sich",
+    "patternsCompoundDesc": "Lösungen, die Sie zuvor verwendet haben, tauchen automatisch auf.",
+    "contextPersists": "Kontext bleibt erhalten",
+    "contextPersistsDesc": "Ihre KI kennt Ihren Stack, Ihren Stil, Ihre Entscheidungen.",
+    "intelligenceGrows": "Intelligenz wächst",
+    "intelligenceGrowsDesc": "Jede Interaktion macht Ihre KI intelligenter."
+  },
+  "individuals": {
+    "title": "Ihre Muster, verstärkt.",
+    "subtitle": "Ob Sie im Flow-Zustand schnell liefern oder sorgfältig ein komplexes System entwerfen – Ihre KI sollte Ihre Muster kennen.",
+    "features": {
+      "conventions": "Coding-Konventionen, die Sie bevorzugen",
+      "patterns": "Architekturmuster, die funktionieren",
+      "solutions": "Lösungen, die Sie getestet haben",
+      "context": "Kontext aus früheren Sitzungen"
+    },
+    "tagline": "Hören Sie auf, sich zu wiederholen. Beginnen Sie zu potenzieren.",
+    "planType": "Einzelplan",
+    "planName": "Solo-Entwickler",
+    "testimonial": "\"Ich habe diese Auth-Race-Condition vor 3 Monaten gelöst. Meine KI fand das genaue Muster mit 'ekko auth race'. Hat mir 2 Stunden gespart.\""
+  },
+  "teams": {
+    "title": "Institutionelles Wissen, bewahrt.",
+    "subtitle": "Ihr Team hat Muster. Konventionen. Hart erkämpfte Lektionen. Ihre KI sollte sie kennen.",
+    "sharedPatterns": "Geteilte Muster",
+    "sharedPatternsDesc": "Team-Muster für jede KI-Interaktion verfügbar.",
+    "consistentSuggestions": "Konsistente Vorschläge",
+    "consistentSuggestionsDesc": "Gleiche Muster, gleiche Qualität, im ganzen Team.",
+    "onboardingAcceleration": "Onboarding-Beschleunigung",
+    "onboardingAccelerationDesc": "Neuer Ingenieur + EKKOS = sofortiges Team-Wissen.",
+    "architectureEnforcement": "Architektur-Durchsetzung",
+    "architectureEnforcementDesc": "Entscheidungen hallen in jeden Vorschlag nach."
+  },
+  "tools": {
+    "title": "Fünf Werkzeuge. Vollständiger Speicher.",
+    "subtitle": "EKKOS = Echos. Wenn Ihre KI sich erinnern muss, sendet sie ein Ekko. Ihr Wissen hallt zurück.",
+    "ekko": "ekko",
+    "ekkoDesc": "Muster suchen",
+    "crystallize": "crystallize",
+    "crystallizeDesc": "Erkenntnisse bewahren",
+    "reflex": "reflex",
+    "reflexDesc": "Anleitung erhalten",
+    "trace": "trace",
+    "traceDesc": "Lösungen finden",
+    "consolidate": "consolidate",
+    "consolidateDesc": "Lernpunkte sichern"
+  },
+  "pricing": {
+    "title": "Einfache Preise. Kostenlos starten.",
+    "subtitle": "Keine Kreditkarte erforderlich. Upgrade, wenn Sie bereit sind.",
+    "free": {
+      "tier": "Developer",
+      "name": "Kostenlos",
+      "price": "0 €",
+      "period": "/Monat",
+      "features": {
+        "ekkos": "1.000 Ekkos/Monat",
+        "crystallizations": "100 Kristallisierungen/Monat",
+        "retention": "7 Tage Speicher-Erhaltung",
+        "connections": "1 IDE-Verbindung",
+        "support": "Community-Support"
+      },
+      "cta": "Kostenlos starten"
+    },
+    "pro": {
+      "tier": "Professional",
+      "name": "Pro",
+      "badge": "AM BELIEBTESTEN",
+      "price": "19 €",
+      "period": "/Monat",
+      "features": {
+        "ekkos": "Unbegrenzte Ekkos",
+        "crystallizations": "Unbegrenzte Kristallisierungen",
+        "retention": "Ewige Speicher-Erhaltung",
+        "connections": "Unbegrenzte IDE-Verbindungen",
+        "collective": "Kollektiver Speicherzugang",
+        "support": "Prioritäts-Support"
+      },
+      "cta": "Demnächst verfügbar"
+    },
+    "team": {
+      "tier": "Team",
+      "name": "Team",
+      "price": "39 €",
+      "period": "/Platz/Mo",
+      "features": {
+        "everything": "Alles in Pro",
+        "sharedMemory": "Team-geteilter Speicher",
+        "analytics": "Team-Analytik",
+        "admin": "Admin-Kontrollen",
+        "sso": "SSO-Integration",
+        "support": "Prioritäts-Support"
+      },
+      "cta": "Kontaktieren Sie uns"
+    },
+    "enterprise": "Brauchen Sie Enterprise-Funktionen? Self-Hosting? Benutzerdefinierte Compliance?",
+    "enterpriseCta": "Lassen Sie uns reden →"
+  },
+  "cta": {
+    "title": "Bereit, Ihrer KI Gedächtnis zu geben?",
+    "subtitle": "Einrichtung in 2 Minuten. Für den persönlichen Gebrauch für immer kostenlos.",
+    "button": "Kostenlos starten",
+    "noCreditCard": "Keine Kreditkarte erforderlich."
+  },
+  "footer": {
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "about": "Über uns",
+    "blog": "Blog",
+    "careers": "Karriere",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "copyright": "© {year} ekkOS Technologies Inc."
+  },
+  "language": {
+    "select": "Sprache",
+    "auto": "Automatisch erkennen",
+    "aiTranslated": "KI-übersetzt"
+  }
+}
